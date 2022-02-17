@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    text-align: center;
+    
+}
+#profile{
+    border-radius: 50%; 
+    border: 5px solid grey;
+    margin: 40px;
+}
+#welcome{
+    background: linear-gradient(#43DDD0 0%,#2274ba 100%);
+    bottom: 0;
+    left:0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    z-index: 9;
+    color: white;
+}
+#name{
+    font-size: 50px;
+    font-family: 'The Nautigal', cursive;
+}
+.menu{
+    top: 0px;
+    z-index: 9999;
+    list-style: none;
+    cursor: pointer;
+    position: fixed;
+    background: white;
+    margin-top: 0px;
+    height: 40px;
+    width: 100%;
+
+}
+.links{
+    display: inline;
+    padding: 20px;
+    color: brown;
+    font-size: 25px;
+    font-family: fantasy;
+    
+
+}
+.links:hover{
+    background-color: aliceblue;
+    font-size: 28px;
+}   
+.line{
+    background-color: rgb(14, 41, 161);
+    height: 7px;
+    width: 70px;
+    margin: 8px auto;
+}
+p{
+    max-width: 1000px;
+    margin: 22px auto;
+    line-height: 1.5;
+}
+#bio{
+    padding: 50px;;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+
+}
+#contact{
+    font-size: 20px;
+    background-color: red;
+    padding: 30px;
+    float: left;
+    width: 100%;
+}
+.my_nav_bar{
+    position: sticky;
+    top:0;
+    z-index:99999;
+}
